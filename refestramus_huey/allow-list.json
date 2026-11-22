@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "scope": "synthetic-localhost-only",
+  "model": "wing-rack",
+  "firmware": "3.1.2",
+  "destination": "exact configured 127.0.0.1 endpoint; replies only to originating client",
+  "argument_form": "none, omitted type tag, canonical encoded request only",
+  "reply_rule": "H1: exact approved reply bytes for an approved read, to its originating localhost client only",
+  "real_operations": [],
+  "localhost_operations": [
+    {"operation": "discovery", "address": "WING?", "evidence": "protocol-evidence.md W3, manual p16"},
+    {"operation": "identity_read", "address": "/?", "reply_tags": "s", "evidence": "protocol-evidence.md W4, manual p20"},
+    {"operation": "value_read", "address": "/ch/1/mute", "reply_tags": "sfi", "evidence": "protocol-evidence.md W15, manual p21"},
+    {"operation": "value_read", "address": "/ch/1/fdr", "reply_tags": "sff", "evidence": "protocol-evidence.md W15, manual p21"},
+    {"operation": "value_read", "address": "/ch/1/name", "reply_tags": "s", "evidence": "manual channel table p48; synthetic string replay only"}
+  ]
+}

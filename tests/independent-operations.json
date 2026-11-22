@@ -1,0 +1,11 @@
+{
+  "source": "Independently transcribed from manual V3.1.0 pp16,20,21,30; not generated from safety policy",
+  "request_addresses": ["/?", "/ch/1/fdr", "/ch/1/mute", "/ch/1/name"],
+  "discovery_request": "57494e473f",
+  "subscription_addresses": ["/*b", "/*s", "/*S"],
+  "reply_addresses": ["/?", "/ch/1/fdr", "/ch/1/mute", "/ch/1/name"],
+  "reply_tags": {"/?":"s", "/ch/1/fdr":"sff", "/ch/1/mute":"sfi", "/ch/1/name":"s"},
+  "discovery_reply": "WING,127.0.0.1,Synthetic,wing-rack,SYNTHETIC,3.1.2",
+  "destination_ip": "127.0.0.1",
+  "real_operations": []
+}

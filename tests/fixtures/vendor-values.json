@@ -1,0 +1,92 @@
+{
+  "synthetic": true,
+  "source": "https://cdn-media.empowertribe.com/2106004e217b8eb2639d93672823eef5/WING_Remote-Protocols-3.1-03.pdf",
+  "manual_version": "V3.1.0",
+  "date_read": "2026-11-21",
+  "provenance": "Independently transcribed from printed OSC example values, not generated from implementation. Not target hardware observations.",
+  "general_conversion_established": false,
+  "examples": [
+    {
+      "page": 21,
+      "address": "/ch/1/fdr",
+      "tags": "sff",
+      "display": "-oo",
+      "raw": 0.0,
+      "value": -144.0,
+      "exact_reply_hex": "2f63682f312f6664720000002c736666000000002d6f6f0000000000c3100000"
+    },
+    {
+      "page": 22,
+      "address": "/ch/2/fdr",
+      "tags": "sff",
+      "display": "-2.0",
+      "raw": 0.7,
+      "value": -2.0,
+      "exact_reply_hex": null
+    },
+    {
+      "page": 22,
+      "address": "/ch/2/fdr",
+      "tags": "sff",
+      "display": "-3.0",
+      "raw": 0.675,
+      "value": -3.0,
+      "exact_reply_hex": null
+    },
+    {
+      "page": 24,
+      "address": "/ch/1/fdr",
+      "tags": "sff",
+      "display": "-1.0",
+      "raw": 0.725,
+      "value": -1.0,
+      "exact_reply_hex": null
+    },
+    {
+      "page": 24,
+      "address": "/ch/2/fdr",
+      "tags": "sff",
+      "display": "0.0",
+      "raw": 0.75,
+      "value": 0.0,
+      "exact_reply_hex": null
+    },
+    {
+      "page": 24,
+      "address": "/ch/1/fdr",
+      "tags": "sff",
+      "display": "3.0",
+      "raw": 0.825,
+      "value": 3.0,
+      "exact_reply_hex": null
+    },
+    {
+      "page": 24,
+      "address": "/ch/1/fdr",
+      "tags": "sff",
+      "display": "4.0",
+      "raw": 0.85,
+      "value": 4.0,
+      "exact_reply_hex": null
+    },
+    {
+      "page": 21,
+      "address": "/ch/1/mute",
+      "tags": "sfi",
+      "display": "1",
+      "raw": 1.0,
+      "value": 1,
+      "exact_reply_hex": "2f63682f312f6d75746500002c73666900000000310000003f80000000000001"
+    },
+    {
+      "page": 24,
+      "address": "/ch/1/mute",
+      "tags": "sfi",
+      "display": "0",
+      "raw": 0.0,
+      "value": 0,
+      "exact_reply_hex": null
+    }
+  ],
+  "caution": "Printed decimal raw values are evidence for the examples, not an arbitrary-value transfer equation. Only examples with exact_reply_hex are printed byte-exact examples. Do not relabel channel 2 examples as independently verified channel 1 exchanges."
+}

@@ -1,0 +1,21 @@
+{
+  "type": "snapshot.9",
+  "creator_fw": "3.1.2",
+  "creator_model": "wing-rack",
+  "creator_sn": "SYNTHETIC",
+  "creator_name": "Synthetic",
+  "created": "2026-11-21 00:00:00",
+  "updated": "2026-11-21 00:00:00",
+  "active_show": "",
+  "active_scene": "",
+  "ae_data": {
+    "ch": {
+      "1": {"name": "Synthetic channel", "mute": 1, "fdr": -144.0}
+    },
+    "bus": {"1": {"name": "Synthetic bus", "mute": 0}}
+  },
+  "ce_data": {},
+  "ae_globals": {},
+  "ce_globals": {},
+  "scopes": {}
+}
